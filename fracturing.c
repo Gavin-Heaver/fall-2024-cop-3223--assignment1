@@ -39,7 +39,7 @@ double coordinates(){
     scanf(" %lf", & y2);
 
     //Calculate distance
-    diameter = sqrt(pow(x2 - x1,2)+pow(y2 - y1,2));
+    diameter = sqrt(pow(x2 - x1,2) + pow(y2 - y1,2));
 
     //Print the 2 coordinates
     printf("x1 = %lf; y1 = %lf\n", x1, y1);
